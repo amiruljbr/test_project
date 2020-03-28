@@ -5,7 +5,7 @@ function balikKata(kata) {
   for (j=i; j>=0; j--){
 	  hasilkata=hasilkata + kata[j];
   }
-  console.log(hasilkata);  
+  return hasilkata;  
 }
 
 // TEST CASES
