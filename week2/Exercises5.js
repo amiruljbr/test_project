@@ -49,7 +49,6 @@ var fourthWord4 = word4.substring(18, 20);
 var fifthWord4 = word4.substring(21, 25); 
 
 var firstWordLength = exampleFirstWord4.length;
-// create new variables around here
 var secondWord4Length=secondWord4.length;
 var thirdWord4Length=thirdWord4.length;
 var fourthWord4Length=fourthWord4.length;
