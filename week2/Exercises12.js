@@ -4,7 +4,8 @@ function konversiMenit(menit) {
 	let detik = menit % 60;
 	let detikPuluhan = Math.floor(detik/10);
 	let detikSatuan = detik % 10;
-	console.log(menitFinal + ':' + detikPuluhan + detikSatuan);
+	hasil= menitFinal + ':' + detikPuluhan + detikSatuan;
+  	return hasil;
 }
 
 // TEST CASES
