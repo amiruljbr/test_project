@@ -11,7 +11,11 @@ function xo(str) {
 			//Tidak Terjadi Apa2
 		}
 	}
-	console.log(sumO===sumX);		
+	if (sumO===sumX) {
+    return true;
+  } else {
+    return false;
+  }		
 }
 
 // TEST CASES
