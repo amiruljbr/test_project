@@ -1,0 +1,39 @@
+/*
+No.1 Newton Second Law
+
+* SET massa_benda TO 60
+* SET percepatan_benda TO 2
+* CALCULATE Gaya AS massa_benda dikali percepatan_benda
+
+No.2 Tahun Kabitsat
+
+* READ tahun
+* IF tahun dibagi 4 tersisa 0 THEN
+*		display "Tahun Kabitsat"
+* ELSE
+*		display "Bukan Tahun Kabitsat"
+* ENDIF
+
+No.3 Laundry Day
+
+*SET pakaian
+*SET mesin_cuci
+*REPEAT 
+*		Masukkan satu persatu pakaian ke mesin cuci
+*UNTIL jumlah pakaian berjumlah 20
+*SET mesin_cuci to nyala
+
+No. 4 Periksa Kuku
+
+*SET Jumlah_siswa as 40
+*SET Guru
+*SET moveCount as 1
+*FOR setiap murid dalam kelas
+*		IF kuku murid kotor THEN
+*			guru menghukum murid tersebut
+*		ELSE
+*			guru memuji murid tersebut 
+*		ENDIF
+*		guru memeriksa murid selanjutnya
+*ENDFOR
+*/
