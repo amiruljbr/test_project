@@ -1,8 +1,8 @@
 function bandingkanAngka(angka1, angka2) {
 	if(angka1===angka2){
-		console.log(-1);
+		return -1;
 	} else {
-		console.log(angka1<angka2);
+		return angka1<angka2;
 	}
 }
 
