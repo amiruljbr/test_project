@@ -1,6 +1,6 @@
 //soal nomor 1
 console.log('LOOPING PERTAMA')
-let i = 2;
+var i = 2;
 while (i<21) {
   console.log(i + ' - I love coding');
   i=i+2;
@@ -15,7 +15,7 @@ while (i>3) {
 //soal no 2
 
 console.log('LOOPING PERTAMA')
-j=1;
+var j=1;
 while (j<21) {
   console.log(j + ' - I love coding');
   j++;
@@ -29,7 +29,7 @@ while (j>1) {
 
 //soal no 3
 //looping pertama pertambahan 1
-for (k=1 ; k<=100 ; k++){
+for (var k=1 ; k<=100 ; k++){
 	if (k % 2 === 1) {
 		console.log('GANJIL');
 	} 
@@ -39,7 +39,7 @@ for (k=1 ; k<=100 ; k++){
 }
 
 //looping kedua penambahanambahan 2
-for (l=1; l<=100; l=l+2){
+for (var l=1; l<=100; l=l+2){
 	if(l % 3 === 0){
 		console.log(l + ' kelipatan 3');
 	} else {
@@ -48,7 +48,7 @@ for (l=1; l<=100; l=l+2){
 }
 
 //looping ketiga penambahan 5
-for (m=1; m<=100; m=m+5){
+for (var m=1; m<=100; m=m+5){
 	if(m % 6 === 0){
 		console.log(m + ' kelipatan 6');
 	} else {
@@ -57,7 +57,7 @@ for (m=1; m<=100; m=m+5){
 }
 
 //looping keempat penambahan 9
-for (n=1; n<=100; n=n+9){
+for (var n=1; n<=100; n=n+9){
 	if(n % 10 === 0){
 		console.log(n + ' kelipatan 9')
 	} else {
