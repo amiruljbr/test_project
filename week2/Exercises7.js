@@ -9,7 +9,7 @@ for (i=1; i<=rows1; i++){
 
 var rows2=6; // input the number of rows2
 // do loops to display asterisks in the console.
-for (j=1 ; j<=rows2; j++){
+for (var j=1 ; j<=rows2; j++){
   let k=1;
   let printbintang='';
   while (k<=rows2){
@@ -23,7 +23,7 @@ for (j=1 ; j<=rows2; j++){
 
 var rows3=6; // input the number of rows3
 // do loops to display asterisks in the console.
-for (j=1 ; j<=rows3; j++){
+for (var j=1 ; j<=rows3; j++){
   let k=1;
   let printbintang='';
   while (k<=j){
