@@ -1,9 +1,9 @@
 function konversiMenit(menit) {
   // you can only write your code here!
-	let menitFinal = Math.floor(menit/60);
-	let detik = menit % 60;
-	let detikPuluhan = Math.floor(detik/10);
-	let detikSatuan = detik % 10;
+	var menitFinal = Math.floor(menit/60);
+	var detik = menit % 60;
+	var detikPuluhan = Math.floor(detik/10);
+	var detikSatuan = detik % 10;
 	hasil= menitFinal + ':' + detikPuluhan + detikSatuan;
   	return hasil;
 }
