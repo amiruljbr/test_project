@@ -1,8 +1,8 @@
 function balikKata(kata) {
   // you can only write your code here!
-  let i=kata.length - 1;
-  let hasilkata='';
-  for (j=i; j>=0; j--){
+  var i=kata.length - 1;
+  var hasilkata='';
+  for (var j=i; j>=0; j--){
 	  hasilkata=hasilkata + kata[j];
   }
   return hasilkata;  
