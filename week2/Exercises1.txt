@@ -1,39 +1,43 @@
 /*
 No.1 Newton Second Law
 
-* SET massa_benda TO 60
-* SET percepatan_benda TO 2
-* CALCULATE Gaya AS massa_benda dikali percepatan_benda
+* STORE "massa_benda" TO 60
+* STORE "percepatan_benda" TO 2
+* CALCULATE "Gaya" AS "massa_benda dikali percepatan_benda"
+* Display "Gaya" //Nilai dari gaya akan dimunculkan
 
 No.2 Tahun Kabitsat
 
-* READ tahun
-* IF tahun dibagi 4 tersisa 0 THEN
-*		display "Tahun Kabitsat"
-* ELSE
-*		display "Bukan Tahun Kabitsat"
-* ENDIF
+*STORE "tahun" with any value integer
+*IF "tahun" mod 4 equals with  0 THEN
+*   IF "tahun" mod 100 not equal to 0 THEN
+*		  DISPLAY "Kabisat"
+*	  ELSE IF "tahun" mod 100 equal to 0 and "tahun" mod 400 equal to 0 THEN
+*		  DISPLAY "Kabisat"
+*	  ELSE THEN
+*		  DISPLAY "Not Kabisat"
+*	  END IF
+*ELSE  THEN
+*	  DISPLAY "Not Kabisat"
+*END IF
 
 No.3 Laundry Day
 
-*SET pakaian
-*SET mesin_cuci
+*STORE "pakaian" with any value integer
+*STORE "mesin_cuci" with mati
 *REPEAT 
 *		Masukkan satu persatu pakaian ke mesin cuci
-*UNTIL jumlah pakaian berjumlah 20
-*SET mesin_cuci to nyala
+*UNTIL jumlah "pakaian" berjumlah 20
+*STORE "mesin_cuci" to nyala
 
 No. 4 Periksa Kuku
 
-*SET Jumlah_siswa as 40
-*SET Guru
-*SET moveCount as 1
+*STORE "Jumlah_siswa" to 40
 *FOR setiap murid dalam kelas
 *		IF kuku murid kotor THEN
 *			guru menghukum murid tersebut
 *		ELSE
 *			guru memuji murid tersebut 
 *		ENDIF
-*		guru memeriksa murid selanjutnya
 *ENDFOR
 */
