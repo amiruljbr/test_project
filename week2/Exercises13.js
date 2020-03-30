@@ -1,8 +1,8 @@
 function xo(str) {
   // you can only write your code here!
-	let sumO = 0;
-	let sumX = 0;
-	for (i=0 ;  i < str.length ; i++){	
+	var sumO = 0;
+	var sumX = 0;
+	for (var i=0 ;  i < str.length ; i++){	
 		if ( str[i] === 'o'){
 			sumO = sumO + 1; //menambah conter sumO sebanyak 1
 		} else if (str[i] === 'x') {
