@@ -3,10 +3,15 @@ function pasanganTerbesar(num) {
   str_num = num.toString(); //ubah number ke string agar dapat di slice ke dalam 2-2 element
   var angka2 = []; // variabel untuk angka yang sudah dipisah 2-2
   for (var i=0; i<str_num.length-1; i++){
-	  angka2.push(str_num.slice(i,i+2));
+	  angka2.push(str_num[i]+str_num[i+1]);
   }
-  angka2.sort(function(a,b){return b - a});  //sorting descending
-  return angka2[0]; //return angka terbesar setelahj disort
+  angkaterbesar = angka2[0];
+  for (var i=1; i< angka2.length; i++){
+	  if (angka2[i]> angkaterbesar){
+		  angkaterbesar= angka2[i];
+	  }  
+  }
+  return angkaterbesar;
 }
 
 // TEST CASES

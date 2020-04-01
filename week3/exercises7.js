@@ -1,6 +1,19 @@
 function hitungJumlahKata(kalimat) {
   // you can only write your code here!
-	var kata = kalimat.split(' ');
+	var kata = [];
+	var kata1='';
+	for (var i=0;i<kalimat.length;i++){
+		if (kalimat[i]!=' '){
+			kata1 = kata1 + kalimat[i];
+			if (i==kalimat.length-1){
+				kata.push(kata1);
+			}
+		} else {
+			kata.push(kata1);
+			kata1 ='';
+		}
+	}
+	console.log(kata);
 	return kata.length;
 }
 
