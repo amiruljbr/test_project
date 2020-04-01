@@ -9,7 +9,8 @@ var data = ["0001", "Roman Alamsyah", "Bandar Lampung", "21/05/1989", "Membaca"]
 //ouput pertama
 function dataHandling2 (data){
 	data.splice(1,1, "Roman Alamsyah Elsharawy");
-	data.splice(5,0, "Pria", "SMA Internasional Metro");
+	data.splice(2,1, "Provinsi Bandar Lampung");
+	data.splice(4,1, "Pria", "SMA Internasional Metro");
 	return data;
 }
 
@@ -74,8 +75,8 @@ switch (hari[1]) {
 } 
 
 //ouput ketiga
-hari.sort(function(a, b){return b - a});
-console.log(hari);
+var haridesc = hari.sort(function(a, b){return b - a});
+console.log(haridesc);
 
 //output keempat
 var hari2 = data2[3].split('/');
